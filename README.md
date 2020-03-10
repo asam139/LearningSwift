@@ -38,3 +38,22 @@ public struct PlaygroundRootView: View {
 
 Press the blue Play button next to the `PlaygroundPage.current.liveView` line or type **⇧⌘↵** to run the Playground.
 
+## Combine Playground
+
+This playground will help you to get started with [Combine - Apple Developer Documentation](https://developer.apple.com/documentation/combine).
+
+- What is Combine?
+- Publishers & Subscribers
+- Rules of subscriptions
+- Foundation and Combine
+- @Published property and bindings
+- Memory management explained with `AnyCancellable`
+- Flatmap and matching error types
+- Combining Publishers
+- Future and Promises
+- Custom `Publisher` and UIKit extensions
+- Debugging publishers
+
+## Requirements
+- Xcode 11
+
