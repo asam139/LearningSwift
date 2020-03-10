@@ -56,7 +56,7 @@ final class ImageStore {
         if let index = images.index(forKey: name) { return index }
         
         guard
-            let url = Bundle.main.url(forResource: name, withExtension: "jpg"),
+            let url = Bundle.main.url(forResource: name, withExtension: nil),
             let imageSource = CGImageSourceCreateWithURL(url as NSURL, nil),
             let image = CGImageSourceCreateImageAtIndex(imageSource, 0, nil)
             else {
