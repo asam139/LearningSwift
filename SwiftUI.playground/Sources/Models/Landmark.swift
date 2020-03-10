@@ -23,10 +23,6 @@ struct Landmark: Hashable, Codable, Identifiable {
             longitude: coordinates.longitude)
     }
     
-    func image(forSize size: Int) -> Image {
-        ImageStore.shared.image(name: imageName, size: size)
-    }
-    
     enum Category: String, CaseIterable, Codable, Hashable {
         case featured = "Featured"
         case lakes = "Lakes"
