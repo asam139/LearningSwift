@@ -18,6 +18,7 @@ struct LandmarkDetail: View {
                 .frame(width: 250, height: 250)
                 .offset(x: 0, y: -130)
                 .padding(.bottom, -130)
+                .animation(.spring())
             
             VStack(alignment: .leading) {
                 Text(landmark.name)
