@@ -5,7 +5,7 @@ import UIKit
 import SwiftUI
 
 
-//: ## Foundation and Combine
+//: ## Foundation
 //: Foundation adds Combine publishers for many types, like:
 //: - URLSessionTask publisher and a JSON Decoding operator
 

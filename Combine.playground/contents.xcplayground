@@ -6,7 +6,7 @@
         <page name='Subjects'/>
         <page name='Operators'/>
         <page name='Rules of subscriptions'/>
-        <page name='Foundation and Combine'/>
+        <page name='Foundation'/>
         <page name='@Published properties'/>
         <page name='Memory Management'/>
         <page name='Flatmap and error types'/>
@@ -14,6 +14,7 @@
         <page name='Future and Promises'/>
         <page name='Custom UIKit Publishers'/>
         <page name='Debugging'/>
-        <page name='Example'/>
+        <page name='Solution Exercise 1'/>
+        <page name='Exercise 1'/>
     </pages>
 </playground>
